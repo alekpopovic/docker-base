@@ -9,3 +9,4 @@ RUN \
 RUN gem install bundler
 RUN gem install rails
 RUN gem install sidekiq
+RUN yarn global add @nestjs/cli
