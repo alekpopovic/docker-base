@@ -10,7 +10,8 @@ RUN \
     nodejs \ 
     yarn \ 
     ncftp \ 
-    php
+    php \
+    yara
     
 RUN gem install bundler
 RUN gem install rails
